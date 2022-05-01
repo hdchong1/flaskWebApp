@@ -1,0 +1,14 @@
+{% extends "base.html" %} {% block title %}Hello{% endblock %} {% block content %}
+
+<div align="center">
+    <img src="https://raw.githubusercontent.com/MariyaSha/SimpleGreetingApp/main/logo.png">
+    <br>
+    <form action="greet" method="POST">
+        <p> Type your name here.</p>
+        <input type="text" name="name_input">
+        <br>
+        <br>
+        <input type="submit" value="GREET" id="greet">
+    </form>
+</div>
+{% endblock %}
